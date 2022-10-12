@@ -1,13 +1,13 @@
 require './Document'
 class Book < Document
-  attr_accessor :author_241, :pageNumber_241
+  attr_accessor :author_243, :pageNumber_243
 
   # def initialize()
   # end
-  def initData(id_241, nxb_241, number_241, author_241, pageNumber_241)
-    super(id_241, nxb_241, number_241)
-    self.author_241 = author_241
-    self.pageNumber_241 = pageNumber_241
+  def initData(id_243, nxb_243, number_243, author_243, pageNumber_243)
+    super(id_243, nxb_243, number_243)
+    self.author_243 = author_243
+    self.pageNumber_243 = pageNumber_243
   end
   
   def create()
@@ -21,6 +21,6 @@ class Book < Document
   def display()
     print "Book : "
     super.display()
-    puts "\tAuthor : #{self.author_241} -- pageNumber : #{self.pageNumber_241}"
+    puts "\tAuthor : #{self.author_243} -- pageNumber : #{self.pageNumber_243}"
   end
 end

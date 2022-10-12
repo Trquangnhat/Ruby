@@ -1,10 +1,10 @@
 class Document
-    attr_accessor :id_241, :nxb_241, :number_241
+    attr_accessor :id_243, :nxb_243, :number_243
     
-    def initData(id_241, nxb_241, number_241)
-      self.id_241 = id_241
-      self.nxb_241 = nxb_241
-      self.number_241 = number_241
+    def initData(id_243, nxb_243, number_243)
+      self.id_243 = id_243
+      self.nxb_243 = nxb_243
+      self.number_243 = number_243
     end
   
     def create()
@@ -17,6 +17,6 @@ class Document
     end
     
     def display()
-      puts "Id : #{self.id_241} -- nxb: #{self.nxb_241} -- number: #{self.number_241}"
+      puts "Id : #{self.id_243} -- nxb: #{self.nxb_243} -- number: #{self.number_243}"
     end
   end

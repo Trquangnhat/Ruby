@@ -1,12 +1,12 @@
 class Student 
-    attr_accessor :name_241, :age_241, :classs_241
-    def initialize(name_241, age_241, classs_241)
-      self.name_241 = name_241
-      self.age_241 = age_241
-      self.classs_241 = classs_241
+    attr_accessor :name_243, :age_243, :classs_243
+    def initialize(name_243, age_243, classs_243)
+      self.name_243 = name_243
+      self.age_243 = age_243
+      self.classs_243 = classs_243
     end
   
     def display()
-      puts "#{self.name_241} || #{self.age_241} || #{self.classs_241}"
+      puts "#{self.name_243} || #{self.age_243} || #{self.classs_243}"
     end
   end

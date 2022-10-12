@@ -1,15 +1,15 @@
 class Student 
-    attr_accessor :name_241, :age_241, :hometown_241, :classs_241
+    attr_accessor :name_243, :age_243, :hometown_243, :classs_243
   
-    def initialize(name_241, age_241, hometown_241, classs_241)
-      self.name_241 = name_241
-      self.age_241 = age_241
-      self.hometown_241 = hometown_241
-      self.classs_241 = classs_241
+    def initialize(name_243, age_243, hometown_243, classs_243)
+      self.name_243 = name_243
+      self.age_243 = age_243
+      self.hometown_243 = hometown_243
+      self.classs_243 = classs_243
     end
   
     # hiển thị thông tin của mỗi học sinh.
     def display()
-      puts " Ten: #{self.name_241} || Tuoi:  #{self.age_241} || Noi o:  #{self.hometown_241} || Lop: #{self.classs_241}"
+      puts " Ten: #{self.name_243} || Tuoi:  #{self.age_243} || Noi o:  #{self.hometown_243} || Lop: #{self.classs_243}"
     end
   end

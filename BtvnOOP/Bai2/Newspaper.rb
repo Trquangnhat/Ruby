@@ -1,11 +1,11 @@
 require './Document'
 class Newspaper < Document
-  attr_accessor :dayIssue_241
+  attr_accessor :dayIssue_243
   
   
-  def initData(id_241, nxb_241, number_241, dayIssue_241)
-    super(id_241, nxb_241, number_241)
-    self.dayIssue_241 = dayIssue_241
+  def initData(id_243, nxb_243, number_243, dayIssue_243)
+    super(id_243, nxb_243, number_243)
+    self.dayIssue_243 = dayIssue_243
   end
   
   def create()
@@ -17,6 +17,6 @@ class Newspaper < Document
   def display()
     print "Newspaper : "
     super.display()
-    puts "\tDay Issue : #{self.dayIssue_241}"
+    puts "\tDay Issue : #{self.dayIssue_243}"
   end
 end

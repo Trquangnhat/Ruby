@@ -3,15 +3,15 @@ require './Room'
 require 'date'
 
 class Person
-  attr_accessor :name_241, :age_241, :id_241, :room_241, :checkin_date_241, :checkout_date_241, :numberRent_241, :rent_241
-  def initData(id_241, name_241, age_241, room_241, checkin_date_241, checkout_date_241)
-    self.name_241 = name_241
-    self.age_241 = age_241
-    self.id_241 = id_241
-    self.room_241 = room_241
+  attr_accessor :name_243, :age_243, :id_243, :room_243, :checkin_date_243, :checkout_date_243, :numberRent_243, :rent_243
+  def initData(id_243, name_243, age_243, room_243, checkin_date_243, checkout_date_243)
+    self.name_243 = name_243
+    self.age_243 = age_243
+    self.id_243 = id_243
+    self.room_243 = room_243
     # self.numberRent = numberRent
-    self.checkin_date_241 = Date.parse(checkin_date_241)
-    self.checkout_date_241 = Date.parse(checkout_date_241)
+    self.checkin_date_243 = Date.parse(checkin_date_243)
+    self.checkout_date_243 = Date.parse(checkout_date_243)
   end
 
   def create()
@@ -34,18 +34,18 @@ class Person
       self.room = RoomC.new()
     end
     print "check-in date(yyyy/mm/dd): "
-    self.checkin_date_241 = Date.parse(gets.chop())
+    self.checkin_date_243 = Date.parse(gets.chop())
     print "check-out date(yyyy/mm/dd): "
-    self.checkout_date_241 = Date.parse(gets.chop())
+    self.checkout_date_243 = Date.parse(gets.chop())
 
   end
 
   def display()
-    puts "id: #{self.id_241} || name: #{self.name_241} || age: #{self.age_241}"
-    puts "\troom: #{self.room.category}(#{self.room_241.price}$) "
-    puts "\tcheck-in data: #{self.checkin_date_241} || check-out date: #{self.checkout_date_241}"
-    if self.rent_241 != nil 
-      puts "\tRent : #{self.rent_241}"
+    puts "id: #{self.id_243} || name: #{self.name_243} || age: #{self.age_243}"
+    puts "\troom: #{self.room.category}(#{self.room_243.price}$) "
+    puts "\tcheck-in data: #{self.checkin_date_243} || check-out date: #{self.checkout_date_243}"
+    if self.rent_243 != nil 
+      puts "\tRent : #{self.rent_243}"
     else 
       puts "\tRent : Incomplete!"
     end

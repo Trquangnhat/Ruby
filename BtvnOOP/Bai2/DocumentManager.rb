@@ -9,13 +9,13 @@ class DocumentManager
     end
   
     def removeDocument(code)
-      DocumentList.delete_if { |x| x.id_241 == code }
+      DocumentList.delete_if { |x| x.id_243 == code }
       display()
     end
   
     def seachDoc(code, type)
       DocumentList.each do |document| 
-        if document.class.name == type && document.id_241 == code
+        if document.class.name == type && document.id_243 == code
           document.display()
         end
       end

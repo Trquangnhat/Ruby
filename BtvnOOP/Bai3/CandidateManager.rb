@@ -7,7 +7,7 @@ class ManagerCandidate
     
     def Seach(idStudent)
       List.each do |candidate| 
-        if candidate.id_241.include?(idStudent)
+        if candidate.id_243.include?(idStudent)
           candidate.display()
         end
       end

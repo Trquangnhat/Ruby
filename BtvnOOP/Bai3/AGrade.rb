@@ -8,14 +8,14 @@ class AGrade < Student
   #   self.chemistry = chemistry
   # end
 
-  attr_accessor :GradeA_241
+  attr_accessor :GradeA_243
   # GradeA =  "Math -- Physics -- Chemistry"
-  def initialize(id_241, name_241, address_241, priority_241)
-    super(id_241, name_241, address_241, priority_241)
-    self.GradeA_241 =  "Math -- Physics -- Chemistry" 
+  def initialize(id_243, name_243, address_243, priority_243)
+    super(id_243, name_243, address_243, priority_243)
+    self.GradeA_243 =  "Math -- Physics -- Chemistry" 
   end
   def display()
     super()
-    puts "A Class: #{self.GradeA_241}"
+    puts "A Class: #{self.GradeA_243}"
   end
 end

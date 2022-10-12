@@ -11,7 +11,7 @@ class School
   
     def SeachStudent (age, hometown)
       ListStudent.each do |student| 
-        if(student.age == age && student.hometown_241.include?(hometown))
+        if(student.age == age && student.hometown_243.include?(hometown))
           student.display() 
         end
       end

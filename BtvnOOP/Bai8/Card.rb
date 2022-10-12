@@ -1,15 +1,15 @@
 require './Student'
 class Card
-  attr_accessor :id_241, :student_241, :borrowDate_241, :paymentDate_241, :bookId_241
-  def initialize(id_241, student_241, borrowDate_241, paymentDate_241, bookId_241)
-    self.id_241 = id_241
-    self.student_241 = student_241
-    self.borrowDate_241 = borrowDate_241
-    self.paymentDate_241 = paymentDate_241
-    self.bookId_241 = bookId_241
+  attr_accessor :id_243, :student_243, :borrowDate_243, :paymentDate_243, :bookId_243
+  def initialize(id_243, student_243, borrowDate_243, paymentDate_243, bookId_243)
+    self.id_243 = id_243
+    self.student_243 = student_243
+    self.borrowDate_243 = borrowDate_243
+    self.paymentDate_243 = paymentDate_243
+    self.bookId_243 = bookId_243
   end
 
   def display()
-    puts "id card = #{self.id_241} student name = #{self.student_241.name}"
+    puts "id card = #{self.id_243} student name = #{self.student_243.name}"
   end
 end

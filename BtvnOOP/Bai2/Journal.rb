@@ -1,10 +1,10 @@
 require './Document'
 class Journal < Document
-  attr_accessor :issueNumber_241, :monthIssue_241
-  def initData(id_241, nxb_241, number_241, issueNumber_241, monthIssue_241)
-    super(id_241, nxb_241, number_241)
-    self.issueNumber_241 = issueNumber_241
-    self.monthIssue_241 = monthIssue_241
+  attr_accessor :issueNumber_243, :monthIssue_243
+  def initData(id_243, nxb_243, number_243, issueNumber_243, monthIssue_243)
+    super(id_243, nxb_243, number_243)
+    self.issueNumber_243 = issueNumber_243
+    self.monthIssue_243 = monthIssue_243
   end
 
   def create()
@@ -17,6 +17,6 @@ class Journal < Document
   def display()
     print "Journal : "
     super.display()
-    puts "\tIssue Number : #{self.issueNumber_241} -- Month Issue : #{self.monthIssue_241}"
+    puts "\tIssue Number : #{self.issueNumber_243} -- Month Issue : #{self.monthIssue_243}"
   end
 end

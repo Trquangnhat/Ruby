@@ -1,18 +1,18 @@
 class Teacher
 
-    attr_accessor :name_241, :age_241, :hometown_241, :id_241, :salary_241, :bonus_241, :penaty_241, :realSalary_241
-    def initialize(id_241, name_241, age_241, hometown_241, salary,_241, penaty_241)
-      self.name_241 = name_241
-      self.age_241 = age_241.to_i
-      self.hometown_241 = hometown_241
-      self.id_241 = id_241
-      self.salary_241 = salary_241.to_f
-      self.bonus_241 = bonus_241.to_f
-      self.penaty_241 = penaty_241.to_f
+    attr_accessor :name_243, :age_243, :hometown_243, :id_243, :salary_243, :bonus_243, :penaty_243, :realSalary_243
+    def initialize(id_243, name_243, age_243, hometown_243, salary,_243, penaty_243)
+      self.name_243 = name_243
+      self.age_243 = age_243.to_i
+      self.hometown_243 = hometown_243
+      self.id_243 = id_243
+      self.salary_243 = salary_243.to_f
+      self.bonus_243 = bonus_243.to_f
+      self.penaty_243 = penaty_243.to_f
       # self.realSalary = realSalary
     end
   
     def display()
-      puts "#{self.id_241} || #{self.name_241} || #{self.age_241} || #{self.hometown_241} || #{self.salary_241} || #{self.bonus_241} || #{self.penaty_241} || #{self.realSalary_241}"
+      puts "#{self.id_243} || #{self.name_243} || #{self.age_243} || #{self.hometown_243} || #{self.salary_243} || #{self.bonus_243} || #{self.penaty_243} || #{self.realSalary_243}"
     end
   end
