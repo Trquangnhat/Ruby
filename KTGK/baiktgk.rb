@@ -207,7 +207,7 @@ while true
             if (isDeleted243 == true)
                 puts "Da xoa"
             else
-                puts "Co loi. Xoa khong thanh cong"
+                puts "Co loi. Khong thanh cong"
             end
             # qlptgt243.show_list
         when 7
